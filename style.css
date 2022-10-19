@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:wght@300;400;500&display=swap');
+
+body{
+	font-family: 'Fredoka One', cursive;
+	font-family: 'Rubik', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: #FF8160;
+}
+
+h2 {
+	color: #8FD0D3;
+}
+
+.word_result {
+	font-size: 30px;
+	font-family: 'Fredoka One', cursive;
+	color: #8FD0D3;
+}
+
+
+.main-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row{
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.square{
+	width: 80px;
+	height: 80px;
+	border: none;
+	border-radius: 5px;
+	background-color: #787C7E;
+	outline: none;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+.result{
+	text-align: center;
+	font-size: 36px;
+}
+
+.button{
+	width: 170px;
+	height: 60px;
+	border-radius: 16px;
+	border: none;
+	background-color: #86E072;
+	font-size: 32px;
+	color: #fff;
+}
+
+.button:hover{
+	border: 3px solid #86E072;
+	background-color: #fff;
+	color: #86E072;
+	cursor: pointer;
+}
+
+
+.gray{
+	background-color: #787C7E;
+}
+
+.gold{
+	background-color: #FFEC79;
+}
+
+.green{
+	background-color: #A7FD90;
+}
+
